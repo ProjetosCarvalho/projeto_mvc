@@ -13,6 +13,24 @@ html {
   min-height: 100%;
 }
 
+h1{
+    margin-bottom: 50px;
+}
+
 body {
   margin-bottom: 60px;
+}
+
+.bnt-form {
+    margin-left: 5px;
+    margin-top: 15px;
+    float: right;
+}
+
+.form-cliente {
+    margin-top: 20px;
+}
+
+.tabela {
+    margin-top: 50px;
 }
