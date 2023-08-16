@@ -1,5 +1,23 @@
 ﻿@{
-	ViewData["Title"] = "Atualiza Cliente";
+    ViewData["Title"] = "Atualiza Cliente";
 }
 
 <h1>ATUALIZAR CLIENTE</h1>
+
+<p>Insira as informações abaixo para atualizar um cliente já existente:</p>
+
+<div class="form-cliente form-floating">
+  <textarea class="form-control" placeholder="Insira o nome do cliente aqui" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea">Nome</label>
+</div>
+<div class="form-cliente form-floating">
+    <textarea class="form-control" placeholder="Insira o email do cliente aqui" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Email</label>
+</div>
+<div class="form-cliente form-floating">
+    <textarea class="form-cliente form-control" placeholder="Insira o telefone do cliente aqui" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea">Telefone</label>
+</div>
+
+<a asp-controller="Cliente" asp-action="Index" role="button" class="btn bnt-form btn-danger">Voltar</a>
+<a role="button" class="btn bnt-form btn-success">Salvar</a>
